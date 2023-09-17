@@ -8,6 +8,10 @@ while True:
         print("Invalid query")
         continue
     
-    command = f'grep -i "{query}" dictionary.txt'
+    if ":" == query[0]:
+        query = query[1:]
+        command = query
+    else:
+        command = f'grep -i "{query}" dictionary.txt'
     print("Executing command: ", command)
     os.system(command)
