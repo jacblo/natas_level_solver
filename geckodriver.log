@@ -10075,3 +10075,186 @@ WebDriver BiDi listening on ws://127.0.0.1:46625
 console.error: ({})
 DevTools listening on ws://127.0.0.1:46625/devtools/browser/3ed6ee6b-0265-47b3-8361-4c52d47ca230
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+1694981548613	geckodriver	INFO	Listening on 127.0.0.1:50751
+1694981548616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37561" "-no-remote" "-profile" "/tmp/rust_mozprofileFGNTGz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694981549084	Marionette	INFO	Marionette enabled
+1694981549162	Marionette	INFO	Listening on port 43915
+WebDriver BiDi listening on ws://127.0.0.1:37561
+1694981549205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37561/devtools/browser/82e35236-9c32-4d1f-9137-a811dcb8a860
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+1694981571319	Marionette	INFO	Stopped listening on port 43915
+1694981572110	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1694982570201	geckodriver	INFO	Listening on 127.0.0.1:59787
+1694982570206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50171" "-no-remote" "-profile" "/tmp/rust_mozprofileGChzg8"
+Gtk-Message: 23:29:30.228: Failed to load module "xapp-gtk3-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694982570675	Marionette	INFO	Marionette enabled
+1694982570762	Marionette	INFO	Listening on port 33873
+WebDriver BiDi listening on ws://127.0.0.1:50171
+1694982570808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50171/devtools/browser/6dc1ab91-f980-47ec-a662-e60a5099aacf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+1694982938064	geckodriver	INFO	Listening on 127.0.0.1:44931
+1694982938067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44295" "-no-remote" "-profile" "/tmp/rust_mozprofile5PyOrH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694982938536	Marionette	INFO	Marionette enabled
+1694982938633	Marionette	INFO	Listening on port 41611
+WebDriver BiDi listening on ws://127.0.0.1:44295
+1694982938684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44295/devtools/browser/14ce2413-232e-4227-910f-8d3d6ae24478
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+1694982957610	Marionette	INFO	Stopped listening on port 41611
+1694982959896	geckodriver	INFO	Listening on 127.0.0.1:56405
+1694982959901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36983" "-no-remote" "-profile" "/tmp/rust_mozprofileF7XJZH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694982960372	Marionette	INFO	Marionette enabled
+1694982960458	Marionette	INFO	Listening on port 37047
+WebDriver BiDi listening on ws://127.0.0.1:36983
+1694982960507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36983/devtools/browser/c377aa59-36cc-476c-b1f2-c8329f38607c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
+1694982983797	Marionette	INFO	Stopped listening on port 37047
