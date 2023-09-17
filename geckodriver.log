@@ -9947,3 +9947,28 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://n
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
 1694981157257	Marionette	INFO	Stopped listening on port 43463
 1694981160684	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1694981238399	geckodriver	INFO	Listening on 127.0.0.1:43341
+1694981238404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33417" "-no-remote" "-profile" "/tmp/rust_mozprofilewONqM0"
+Gtk-Message: 23:07:18.425: Failed to load module "xapp-gtk3-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694981238910	Marionette	INFO	Marionette enabled
+1694981238981	Marionette	INFO	Listening on port 37045
+WebDriver BiDi listening on ws://127.0.0.1:33417
+1694981239145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33417/devtools/browser/da2188fd-61a7-4a3b-b03d-f6d14887db74
+console.warn: "nsPrompter: isThirdPartyURI failed: [Exception... \"Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrincipal.isThirdPartyURI]\"  nsresult: \"0x80070057 (NS_ERROR_ILLEGAL_VALUE)\"  location: \"JS frame :: resource://gre/modules/Prompter.sys.mjs :: openPrompt :: line 1131\"  data: no]"
+1694981241285	Marionette	INFO	Stopped listening on port 37045
+1694981248874	geckodriver	INFO	Listening on 127.0.0.1:36881
+1694981248879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37469" "-no-remote" "-profile" "/tmp/rust_mozprofilePaY07D"
+Gtk-Message: 23:07:28.901: Failed to load module "xapp-gtk3-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694981249356	Marionette	INFO	Marionette enabled
+1694981249433	Marionette	INFO	Listening on port 33037
+WebDriver BiDi listening on ws://127.0.0.1:37469
+1694981249480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:37469/devtools/browser/bc1ce7d6-ecd6-47fb-9bf9-cee78e9dde00
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://natas16.natas.labs.overthewire.org."
