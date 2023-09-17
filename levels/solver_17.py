@@ -1,5 +1,9 @@
 from common import *
+
+# commands to remember:
 '^$(cut -c 2-2 /etc/natas_webpass/natas17)'
+'echo $(sed -n 31p simulators/16-source.php | cut -c 26-26)hi there'      # if i find a way to get pipe to work, this will be the way to go, let's me get \ 
+
 
 def solve(driver, last_password):
     driver.get(build_url(level=16))

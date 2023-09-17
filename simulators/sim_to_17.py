@@ -3,7 +3,7 @@ import re
 import readline                     # for arrow keys and history
 
 while True:
-    query = input("Enter query: ").replace("/etc/natas_webpass/natas17", "testing_webpass_file")
+    query = input("Enter query: ").replace("/etc/natas_webpass/natas17", "testing_webpass_file").replace("index.php", "simulators/16-source.php")
     if re.search(r'[;|&`\'"]', query) or query == "":
         print("Invalid query")
         continue
