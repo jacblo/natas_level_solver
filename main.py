@@ -1,8 +1,8 @@
 from selenium import webdriver
 import os
 import sys
+import time
 import common
-
 
 def main():
     solved_levels = os.listdir("levels")
