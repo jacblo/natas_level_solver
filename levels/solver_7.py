@@ -1,11 +1,12 @@
 from common import *
+import os
 
 def solve(driver, last_password):
     url = build_url(level=6, end_arguments="includes/secret.inc")
 
     payload = ""
     headers = {
-        "Authorization": "Basic bmF0YXM2OmZPSXZFME1EdFBUZ1JocW1tdnZBT3QyRWZYUjZ1UWdS",
+        "Authorization": os.environ['AUTHORIZATION'],
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
     }
