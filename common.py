@@ -6,6 +6,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import random
 import os
+import time
 
 def build_url(username = None, password = None, level = 0, end_arguments = None):
     output = "http://"

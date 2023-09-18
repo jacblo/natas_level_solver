@@ -20,7 +20,7 @@ def main():
 
         driver.get(
             common.build_url(password = last_pass, level=start_level-1) # go to the last solved level and log in
-        ) 
+        )
     
     passwords = open("passwords.txt", "a" if use_cached else "w")       # open the file to write the passwords to, append if we're not restarting from scratch
     
