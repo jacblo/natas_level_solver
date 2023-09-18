@@ -1,7 +1,7 @@
 from common import *
 import string
 
-FACTOR = 2
+FACTOR = 1
 COMP_FACT = FACTOR/2 + 1
 
 def solve(driver, _ = None):
