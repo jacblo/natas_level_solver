@@ -18,7 +18,7 @@ def solve(driver, _ = None):
         # binary search
         low = 0
         high = len(language)-1
-        while low <= high:                                                                      # while there are at least 2 elements between high and low
+        while low <= high:
             mid = (low+high)//2
             driver.back()
             text_field = driver.find_element(By.XPATH, '//*[@id="content"]/form/input[1]')
