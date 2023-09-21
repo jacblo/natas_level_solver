@@ -7,6 +7,8 @@ from requests.auth import HTTPBasicAuth
 import random
 import os
 import time
+from tqdm import tqdm
+
 
 def build_url(username = None, password = None, level = 0, end_arguments = None):
     output = "http://"

